@@ -85,7 +85,7 @@ function HomePage() {
         <div className="col-md-4">
           <div className="card text-white bg-warning">
             <div className="card-body">
-              <h5 className="card-title">Spent Last Month</h5>
+              <h5 className="card-title">Expense</h5>
               {/* Replace '300' with your spent last month variable */}
               <p className="card-text display-4">-{spentLastMonth}</p>
             </div>
@@ -94,7 +94,7 @@ function HomePage() {
         <div className="col-md-4">
           <div className="card text-white bg-success">
             <div className="card-body">
-              <h5 className="card-title">Earned Last Month</h5>
+              <h5 className="card-title">Income</h5>
               {/* Replace '500' with your earned last month variable */}
               <p className="card-text display-4">{earnedLastMonth}</p>
             </div>

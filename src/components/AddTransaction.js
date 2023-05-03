@@ -41,6 +41,7 @@ function AddTransaction({ onAddTransaction }) {
           onChange={(e) => setAmount(e.target.value)}
           placeholder="Amount"
           required
+          min="0"
           className="form-control"
         />
       </div>
