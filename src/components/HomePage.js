@@ -86,7 +86,7 @@ function HomePage() {
             <div className="card-body">
               <h5 className="card-title">Expense</h5>
         
-              <p className="card-text display-4">-{spentLastMonth}</p>
+              <p className="card-text display-4">{spentLastMonth}</p>
             </div>
           </div>
         </div>
